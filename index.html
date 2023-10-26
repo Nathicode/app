@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffa500">
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@300;400&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="/src/index.css">
+
+
+<link rel="apple-touch-icon" href="images/logo192.png">
+<style>
+    * {
+        font-family:'Poppins', sans-serif;
+;
+    }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+</style>
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <nav>
+        <div class="logo">
+            <h1>E-Flash Cards</h1>
+        </div>
+        <div class="menu">
+            <span class="material-symbols-outlined" id="menuicon">
+                menu
+                </span>
+
+        </div>
+        </nav>
+        <div class="expand">
+            <div class="creator">
+                <h1>Made by Nathi</h1>
+            </div>
+            <div class="page">
+               <a href="/"> <li id="home">Home</li></a>
+                <a href="mailto: codenathi@gmail.com"><li id="about">About Us</li></a>
+                <a href="telto: 0912872953"><li id="contact">Contact Us</li></a>
+                <button>back</button>
+            </div>
+        </div>
+        <div class="title">
+            <h2>Your Flash Card App</h2>
+        </div>
+        <div class="form">
+            <label for="question">Question</label>
+            <input type="text" id="question" placeholder="Your question">
+            <label for="answer">The answer</label>
+            <input type="text" placeholder="the answer" id="answer">
+          <button id="add">Add</button>
+        </div>
+        <div id="cards">
+         
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="/src/index.js"></script>
+</div>
+</body>
+</html>
